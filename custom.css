@@ -1,0 +1,26 @@
+/* ============================================================
+   YUZAKI · 自定义样式 (custom.css)
+   修改本文件后，重新运行 Antigravity-Background.bat 安装即可生效。
+   每行样式会拼接到应用注入的样式表末尾（优先级最高）。
+   更多玩法见同目录 《美化玩法全攻略.md》
+   ============================================================ */
+
+/* 示例 1：全局链接颜色（取消注释启用） */
+/* a { color: #7ab8e8 !important; } */
+
+/* 示例 2：暗角聚焦效果（取消注释启用，需与遮罩共存时调数值） */
+/* body::after {
+  background:
+    radial-gradient(ellipse at center, rgba(8,8,14,0) 55%, rgba(8,8,14,0.55) 100%),
+    rgba(8,8,14,0.25);
+} */
+
+/* 示例 3：卡片毛玻璃（面板半透明 + 模糊，取消注释启用） */
+/* .bg-card, .bg-muted {
+  background-color: rgba(20,20,26,0.5) !important;
+  backdrop-filter: blur(16px) saturate(1.25) !important;
+  -webkit-backdrop-filter: blur(16px) saturate(1.25) !important;
+} */
+
+/* 示例 4：侧栏文字阴影（取消注释启用） */
+/* .bg-sidebar { text-shadow: 0 0 8px rgba(0,0,0,0.6); } */

@@ -1,0 +1,9 @@
+# Exclude the unpacked app reference (third-party code, do not publish)
+asar/
+
+# Old version files kept locally
+obsolete-kept/
+
+# Windows / temp artifacts
+Thumbs.db
+*.tmp
